@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Google Service Account credentials (DO NOT COMMIT - contains API keys)
+credentials/
+credentials/*.json
+credentials/*.toml
+
+# Streamlit secrets (DO NOT COMMIT - contains API keys)
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files (contain API keys - DO NOT COMMIT)
+.env
+.env.*
+
+# Streamlit secrets (DO NOT COMMIT)
+.streamlit/secrets.toml
